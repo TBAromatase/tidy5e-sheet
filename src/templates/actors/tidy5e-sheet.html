@@ -261,7 +261,7 @@
 						{{#each abilities as |ability id|}}
 						<li class="ability {{#if ability.proficient}}proficient{{/if}}" data-ability="{{id}}" data-key="{{id}}">
 							<div class="wrapper" data-ability="{{id}}">
-								<h4 class="ability-name box-title rollable" title="{{ability.label}}">{{ability.abbr}}</h4>
+								<h4 class="ability-name box-title rollable" title="{{localize (concat 'TIDY5E.Abilities.' ability.label)}}">{{ localize (concat 'TIDY5E.Abilities.abbr.' ability.abbr) }}</h4>
 								<div class="value">
 									<input type="text" name="system.abilities.{{id}}.value" value="{{ability.value}}" class="ability-score" placeholder="10" data-dtype="Number">
 								</div>
@@ -321,8 +321,8 @@
 								value="{{skill.baseValue}}" data-dtype="Number">
 							<input type="hidden" name="system.skills.{{s}}.ability" value="{{skill.ability}}">
 							<a class="proficiency-toggle skill-proficiency" title="{{skill.hover}}">{{{skill.icon}}}</a>
-							<h4 class="skill-name rollable">{{skill.label}}</h4>
-							<span class="skill-ability">{{skill.abbreviation}}</span>
+							<h4 class="skill-name rollable">{{ localize (concat 'TIDY5E.Skills.' skill.label) }}</h4>
+							<span class="skill-ability">{{ localize (concat 'TIDY5E.Abilities.abbr.' skill.abbreviation) }}</span>
 							<span class="skill-mod">{{numberFormat skill.total decimals=0 sign=true}}</span>
 							<span class="skill-passive" title="{{skill.label}} ({{ localize 'DND5E.Passive' }})">({{skill.passive}})</span>
 						</li>

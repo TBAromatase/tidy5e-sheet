@@ -314,5 +314,42 @@
     "unlinked": "Mise en évidence des tokens non liés",
     "linked": "Mise en évidence des tokens liés",
     "both": "Mise en évidence des tokens liés ET non liés"
+  },
+  "TIDY5E.Skills": {
+    "Acrobatics": "Acrobaties",
+    "Animal Handling": "Dressage",
+    "Arcana": "Arcanes",
+    "Athletics": "Athlétisme",
+    "Deception": "Tromperie",
+    "History": "Histoire",
+    "Insight": "Perspicacité",
+    "Intimidation": "Intimidation",
+    "Investigation": "Investigation",
+    "Medicine": "Médecine",
+    "Nature": "Nature",
+    "Perception": "Perception",
+    "Performance": "Représentation",
+    "Persuasion": "Persuasion",
+    "Religion": "Religion",
+    "Sleight of Hand": "Escamotage",
+    "Stealth": "Discrétion",
+    "Survival": "Survie"
+  },
+  "TIDY5E.Abilities": {
+    "Strength": "Force",
+    "Dexterity": "Dextérité",
+    "Constitution": "Constitution",
+    "Intelligence": "Intelligence",
+    "Wisdom": "Sagesse",
+    "Charisma": "Charisme"
+  },
+  "TIDY5E.Abilities.abbr": {
+    "str": "for",
+    "dex": "dex",
+    "con": "con",
+    "int": "int",
+    "wis": "sag",
+    "cha": "cha"
   }
+}
 }
